@@ -1,0 +1,333 @@
+<!DOCTYPE  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/main.js"></script>
+	<title>生活超市</title>
+</head>
+<body>
+<!--顶部状态条-->
+<div class="header_con">
+	<div class="header">
+		<div class="fl">欢迎来到生活超市</div>
+		<div class="right01 fr">
+	      <div class="user_login fl">
+	    	<a href="#" >登陆</a>
+	    	<span class="line">|</span>
+	    	<a href="#" >注册</a>
+	    	<span class="line">|</span>
+	      </div>
+	      <div class="logged_in fl">
+	    	<span >欢迎您</span>
+	    	<em>张山</em>
+	    	<span class="line">|</span>
+	      </div>
+	      <div class='list01 fl'>.
+	    	<a href="#" >我的购物车</a>
+	    	<span class="line">|</span>
+	    	<a href="#" >我的订单</a>
+	      </div>
+	    </div>
+	</div>
+</div>
+<!--logol+search+购物车-->	
+<div class="logol_search_chart clearfix">
+	<div class="index_logol fl"><a href="#"><img src="images/logol.jpg" alt="logol" /></a></div>
+	<div class="search fl">
+		<input class="box fl" type="text" placeholder="搜索"/>
+		<input class="search_btn fr" type="button" value="搜索"/>
+	</div>
+	<div class="chart fr">
+		<span class="contents fl">我的购物车</span>
+		<span class="num fr">0</span>
+	</div>
+</div>
+<!--导航条-->
+<div class="navigator_bar position_relative">
+	<div class="category_title position_absolute">全部商品分类</div>
+	<div class="items position_absolute">
+		<a href="#">首页</a>
+		<span>|</span>
+		<a href="#">海鲜水产</a>
+		<span>|</span>
+		<a href="#">猪牛羊肉</a>
+		<span>|</span>
+		<a href="#">新鲜水果</a>
+		<span>|</span>
+		<a href="#">禽类蛋品</a>
+		<span>|</span>
+		<a href="#">速冻食品</a>
+		<span>|</span>
+		<a href="#">新鲜蔬菜</a>
+	</div>
+</div>
+<!--菜单栏+幻灯片+广告-->
+<div class="menu_ppt_advertisement">
+	<div class="menu fl">
+		<ul>
+			<li class="sea_foods">
+				<a href="#">海鲜水产</a>
+				<span>></span>
+			</li>
+			<li class="meats">
+				<a href="#">猪牛羊肉</a>
+				<span>></span>
+			</li>
+			<li class="fruits">
+				<a href="#">新鲜水果</a>
+				<span>></span>
+			</li>
+			<li class="eggs">
+				<a href="#">禽类蛋品</a>
+				<span>></span>
+			</li>
+			<li class="cold_foods">
+				<a href="#">速冻食品</a>
+				<span>></span>
+			</li>
+			<li class="vegetables">
+				<a href="#">新鲜蔬菜</a>
+				<span>></span>
+			</li>
+		</ul>
+	</div>
+	<div class="ppt_advertisement fl">
+		<div class="ppt fl position_relative">
+		  <li class="ppt_left position_absolute"><img src="./images/ppt01.jpg" alt="" /></li>
+		  <li class="ppt_right position_absolute"><img src="./images/ppt02.jpg" alt="" /></li>
+		  <li class="ppt_right position_absolute"><img src="./images/ppt03.jpg" alt="" /></li>
+		  <li class="ppt_right position_absolute"><img src="./images/ppt04.jpg" alt="" /></li>
+		  <li class="ppt_right position_absolute"><img src="./images/ppt05.jpg" alt="" /></li>
+		  <li class="ppt_right position_absolute"><img src="./images/ppt06.jpg" alt="" /></li>
+		  <span class="prev position_absolute"><</span>
+		  <span class="next position_absolute">></span>
+		  <div class="points position_absolute">
+		    <ul>
+		 
+		    </ul>
+		 </div>
+	    </div>
+	    <div class="advertisement fl">
+	    	<div class="ad01">
+	    		<a href="#"><img src="./images/ad01.jpg" alt="广告" /></a>
+	    	</div>
+	    	<div class="ad02">
+	    		<a href="#"><img src="./images/ad02.jpg" alt="广告" /></a>
+	    	</div>
+	    </div>
+	</div>
+</div>
+</div>
+<!--商品详情-->
+<div class="sea_goods_list">
+	<!--top浮动溢出，需要清除浮动，否则文字会把下面的图片挤到一边，即把文字边界当作图片父元素边界-->
+	<div class="sea_goods_top">
+		<span class="sea_goods_fonts fl">海鲜水产</span>
+		<div class="sea_goods_find_more fr">
+			<a href="#" class="sea_goods_find">查看更多</a>
+		    <span>></span>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="l fl">
+			<img src="./images/hx.jpg" alt="海鲜水产" />
+		</div>
+		<div class="r fl">
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="sea_goods_list">
+	<!--top浮动溢出，需要清除浮动，否则文字会把下面的图片挤到一边，即把文字边界当作图片父元素边界-->
+	<div class="sea_goods_top">
+		<span class="sea_goods_fonts fl">海鲜水产</span>
+		<div class="sea_goods_find_more fr">
+			<a href="#" class="sea_goods_find">查看更多</a>
+		    <span>></span>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="l fl">
+			<img src="./images/hx.jpg" alt="海鲜水产" />
+		</div>
+		<div class="r fl">
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="sea_goods_list">
+	<!--top浮动溢出，需要清除浮动，否则文字会把下面的图片挤到一边，即把文字边界当作图片父元素边界-->
+	<div class="sea_goods_top">
+		<span class="sea_goods_fonts fl">海鲜水产</span>
+		<div class="sea_goods_find_more fr">
+			<a href="#" class="sea_goods_find">查看更多</a>
+		    <span>></span>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="l fl">
+			<img src="./images/hx.jpg" alt="海鲜水产" />
+		</div>
+		<div class="r fl">
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="sea_goods_list">
+	<!--top浮动溢出，需要清除浮动，否则文字会把下面的图片挤到一边，即把文字边界当作图片父元素边界-->
+	<div class="sea_goods_top">
+		<span class="sea_goods_fonts fl">海鲜水产</span>
+		<div class="sea_goods_find_more fr">
+			<a href="#" class="sea_goods_find">查看更多</a>
+		    <span>></span>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="l fl">
+			<img src="./images/hx.jpg" alt="海鲜水产" />
+		</div>
+		<div class="r fl">
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--海鲜水产-->
+<div class="sea_goods_list">
+	<!--top浮动溢出，需要清除浮动，否则文字会把下面的图片挤到一边，即把文字边界当作图片父元素边界-->
+	<div class="sea_goods_top">
+		<span class="sea_goods_fonts fl">海鲜水产</span>
+		<div class="sea_goods_find_more fr">
+			<a href="#" class="sea_goods_find">查看更多</a>
+		    <span>></span>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="l fl">
+			<img src="./images/hx.jpg" alt="海鲜水产" />
+		</div>
+		<div class="r fl">
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+			<div class="sea_goods01 fl">
+				<div class="name">龙虾</div>
+				<a href="#"><img src="./images/lobster.jpg" alt="龙虾" /></a>
+				<div class="sea_goods_price">￥ 38.90</div>
+			</div>
+			<div class="sea_goods02 fl">
+				<div class="name">螃蟹</div>
+				<a href="#"><img src="./images/crab.jpg" alt="螃蟹" /></a>
+				<div class="sea_goods_price">￥ 50.00</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--版权信息-->
+<div class="copyright_info">
+	<div class="info">
+		<div class="first">
+		   <a href="#">关于我们</a>
+           <span>|</span>
+		   <a href="#">联系我们</a>
+           <span>|</span>
+		   <a href="#">招聘人才</a>
+	   </div>
+	   <div class="second">
+		   CopyRight All Rights Reserved
+	   </div>
+	   <div class="third">
+	   	  电话：xxxxxxxxxxx
+	   </div>
+    </div>
+</div>
+</body>
+</html>

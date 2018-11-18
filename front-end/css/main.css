@@ -1,0 +1,144 @@
+body{font-size:14px;color:#666;font-family: "Microsoft Yahei";zoom:1;}
+/*--------------------------------------------首页样式------------------------------------------------*/
+/*顶部状态条*/
+.header_con{height:29px;border:1px solid #ddd; background-color:#f7f7f7;}
+.header{width:1600px;margin:0 auto;position: relative;}
+.header div{height:29px;line-height: 29px;}
+.user_login{display: none;}
+.logged_in{display: block;}
+.user_login a,.list01 a{color:#666;}
+.user_login a:hover,.list01 a:hover{color:red;}
+.line{margin:0px 15px;text-align: center;}
+.right01{position:absolute;right:30px;}
+.logged_in em{color:#f80;margin:0px 15px;}
+/*logol+search+购物车*/
+.logol_search_chart{width:1330px;height:115px;margin:30px auto;margin-left:20%}
+.search{display:inline-block;width:60%;height:35px;border:1px solid green;background:url(../images/search.jpg) 1px 7px no-repeat;margin-top: 39px;margin-left:0.005%;}
+.index_logol a img{width:40%;height:100px;margin-top: 8px;margin-left:5px;}
+.search .box{border:0px;outline: none;width:606px;height:34px;margin-left: 40px;}
+.search .search_btn{width:14%;height:35px;color:white;font-family:"Microsoft Yahei";font-size:20px;background-color: green;border:0px;cursor:pointer;}
+.chart{width:16%;height:35px;border:1px solid gray;background:url(../images/chart.jpg) 1px 2px no-repeat;margin-top: 39px;}
+.chart .contents{color:green;text-indent:30px;height:35px;line-height: 35px;}
+.chart .num{width:8%;height:35px;background-color: orange;font-size: 30px;text-align: center;line-height: 35px;}
+/*导航条*/
+.navigator_bar{height:60px;border-bottom: 2px solid green;width:1330px;margin-left:20%;}
+.category_title{width:20%;height:50px;bottom: 0px;line-height: 50px;text-align: center;background-color: green;color:white;font-size: 30px;font-weight: normal;margin-left:0.07%;margin-right: 200px;}
+.items{width:70%;height:50px;bottom: 0px;line-height: 50px;margin-left: 25%}
+.items a{font-size: 20px;color:gray;}
+.items a:hover{color:red;}
+.items span{width:50px;display: inline-block;text-align: center;}
+/*菜单栏+幻灯片+广告*/
+.menu_ppt_advertisement{width:1600px;;height:246px;margin-left:20%;}
+/*菜单栏*/
+.menu{width:16%;height:246px;}
+.menu ul,.menu li{display: block;}
+.menu ul{width:100%;height:246px;}
+.menu li{width:99%;height:40px;border-bottom: 1px solid gray;border-left:1px solid gray;border-right:1px solid gray;text-align: center;line-height: 40px;}
+.sea_foods{background:url(../images/sea_food.jpg) 1px 5px no-repeat;}
+.sea_foods span{float:right;color:gray;font-size: 30px;}
+.meats{background:url(../images/meat.jpg) 1px 5px no-repeat;}
+.meats span{float:right;color:gray;font-size: 30px;}
+.fruits{background:url(../images/fruit.jpg) 4px 5px no-repeat;}
+.fruits span{float:right;color:gray;font-size: 30px;}
+.eggs{background:url(../images/egg.jpg) 1px 5px no-repeat;}
+.eggs span{float:right;color:gray;font-size: 30px;}
+.cold_foods{background:url(../images/coldfood.jpg) 7px 5px no-repeat;}
+.cold_foods span{float:right;color:gray;font-size: 30px;}
+.vegetables{background:url(../images/vegetables.jpg) 5px 5px no-repeat;}
+.vegetables span{float:right;color:gray;font-size: 30px;}
+.menu li a{font-size: 25px; color:#000;}
+.menu li a:hover{color:orange;cursor:pointer;}
+/*幻灯片*/
+.ppt_advertisement{height:246px;width:84%;}
+.ppt{width:60%;height:246px;overflow: hidden;}
+.ppt li{display:inline-block;width:100%;height:246px;}
+.ppt li img{width:100%;height:246px;}
+.ppt_left{left:0px;top:0px;}
+.ppt_right{left:955px;top:0px;}
+.prev{left:10px;top:88px;font-size: 70px;cursor:pointer;}
+.next{right:10px;top:88px;font-size: 70px;cursor:pointer;}
+.points{left:0px;bottom:0px;width:100%;height:20px;}
+.points ul{display: inline-block;width:100%;height:20px;text-align: center;}
+.points ul li{display:inline-block;width:20px;height:20px;background-color:gray;margin-right:20px;border-radius: 50%;}
+.points ul .active{background-color:red;}
+/*广告*/
+.advertisement{width:20%;height:246px;}
+.ad01 img,.ad02 img{width:100%;height:123px;}
+/*商品详情*/
+/*新鲜水果+定位方法*/
+/*.goods_list{width:80%;height:442px;margin:0px auto;}
+.top{width:97%;height:69px;border-bottom: 2px solid green;}
+.fonts{height:69px;font-size: 30px;margin-top: 30px;color:green;}
+.find_more{height:69px;margin-top:40px;}
+.find{font-size:16px;color:gray;}
+.list02{width:100%;height:371px;margin:0px auto;left:0px;top:71px;}
+.left{width:15%;height:371px;left:0px;}
+.left img{width:100%;height:371px;}
+.right02{width:85%;height:371px;left:248px;}
+.goods01,.goods02,.goods03,.goods04{display:inline-block;width:22%;height:370px;border-right:1px solid gray;border-bottom:1px solid gray;}
+.goods01:hover,.goods02:hover,.goods03:hover,.goods04:hover{width:22%;height:367px;border:1px solid gold;}
+.goods01{left:0px;top:0px;}
+.goods02{left:338px;top:0px;}
+.goods03{left:676px;top:0px;}
+.goods04{left:1014px;top:0px;}
+.goods_name{width:100%;height:97px;color:gray;font-size:20px;text-align: center;line-height: 97px;}
+.right02 img{width:80%;height:240px;display: block;margin:0px auto;}
+
+.price{color:red;font-size: 30px;text-align: center;height:33px;}*/
+/*海鲜水产+浮动方法*/
+.sea_goods_list{width:1388px;height:442px;margin:0 auto;margin-left: 19%;}
+.sea_goods_top{width:97%;height:69px;border-bottom:2px solid green;overflow: hidden;}
+.sea_goods_fonts{height:69px;font-size: 30px;margin-top: 30px;color:green;}
+.sea_goods_find_more{height:69px;margin-top:40px;}
+.sea_goods_find{font-size:16px;color:gray;}
+.sea_goods_find:hover{color:red;}
+.bottom{width:100%;height:371px;margin:0px auto;}
+.l{width:15%;height:371px;}
+.l img{width:100%;height:300px;}
+.r{width:85%;height:200px;font-size: 0px;}
+.sea_goods01,.sea_goods02,.sea_goods03,.sea_goods04{width:24%;height:300px;border-right:1px solid gray;border-bottom:1px solid gray;font-size:20px; }
+.sea_goods01:hover,.sea_goods02:hover,.sea_goods03:hover,.sea_goods04:hover{width:24%;height:299px;border:2px solid gold;}
+.sea_goods_price{color:red;font-size: 30px;text-align: center;height:20px;}
+.name{width:100%;height:97px;color:gray;font-size:20px;text-align: center;}
+.r img{width:80%;height:150px;display: block;margin:0 auto;}
+/*版权信息*/
+.copyright_info{height:182px;border-top:2px solid green;margin-top:50px;text-align: center;}
+.info{height:65px;margin-top: 63px;}
+.first,.second,.third{height:20px;margin-bottom: 5px;}
+.first a,.second,.third{color:gray;font-size: 16px;}
+.first a:hover{color:orange;}
+.first span{display: inline-block;width:40px;text-align: center;}
+
+/*-----------------------------------------------------登陆页样式-----------------------------------*/
+/*logol部分*/
+.logol{height:169px;line-height: 169px;}
+.logol img{width:243px;height:98px;margin-left:170px;margin-top: 30px;}
+/*登陆部分*/
+.log_in{height:500px;background:url(../images/login.jpg);}
+.character{font-size:30px;color:purple;font-style:bold;right:700px;width:30px;height:238px;margin-top:131px;}
+.log_in .box{width:300px;height:300px;background-color: white;right:350px;top:100px;}
+.log_in .box .login_register{width:200px;height:40px;margin:20px auto;border-bottom: 1px solid #666;}
+.log_in .box .login_register .user_login{font-size: 20px;color:gray;display: inline-block;font-style: bold;margin-top: 3px;}
+.log_in .box .login_register .regis{color:green;margin-top: 10px;width:30px;height:30px;}
+.log_in .box .login_register .gt{width:16px;height:16px;border-radius: 50%;background-color: green;color:white;text-align: center;line-height: 15px;margin-top: 11px;margin-right: 7px;}
+.user_name{width:250px;height:30px;border:1px solid gray;margin:0 auto;background:url(../images/username.jpg) 215px 5px no-repeat;}
+.user_name input{width:200px;height:30px;border:0px;outline: none;margin-left: 5px;}
+.password{width:250px;height:30px;border:1px solid gray;margin:0px auto 0;background:url(../images/password.jpg) 215px 5px no-repeat;}
+.password input{width:200px;height:30px;border:0px;outline: none;margin-left: 5px;}
+.log_in .box .username_pass{width:200px;height:30px;text-align: center;line-height: 30px;margin :30px auto 0;}
+.log_in .box .username_pass input{margin: 10px 5px 0 0;}
+.log_in .box .username_pass a{color:gray;}
+.log_in .box .username_pass a:hover{color:orange;}
+.login_register_btn{width:200px;height:30px;border:1px solid green;margin:15px auto 0px;}
+.login_register_btn input{width:200px;height:31px;border:0px;font-size: 25px;color:white;font-style: bold;text-align: center;line-height: 28px;background-color: green;}
+/*注册*/
+.register{width:100%;height:500px;background:url(../images/login.jpg);}
+.register_box{width:400px;height:430px;background-color: white;right:350px;top:50px; }
+.register_box .welcome{width:400px;height:50px;color:rgb(168,168,168);font-size: 25px;text-align: center;line-height: 50px;margin: 30px 0;}
+.register_box .welcome span{display: inline-block;width:200px;border-bottom: 1px solid gray;}
+.check_pass{width:250px;height:30px;border:1px solid gray;margin:0px auto 0;background:url(../images/password.jpg) 215px 5px no-repeat;}
+.check_pass input{width:200px;height:30px;border:0px;outline: none;margin-left: 5px;}
+.user_tip,.pwd_tip,.cpwd_tip,.email_tip{color:red;margin-left:80px;opacity: 0;height:20px;font-size: 15px;line-height: 20px;}
+.email{width:250px;height:30px;border:1px solid gray;margin:0px auto 0;background:url(../images/password.jpg) 215px 5px no-repeat;}
+.email input{width:200px;height:30px;border:0px;outline: none;margin-left: 5px;}
+.user_pass{margin-bottom: 0px;}

@@ -1,0 +1,20 @@
+/*清除默认样式*/
+body,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,input,select,form{margin:0px;padding:0px;}
+img{border:none;}
+ul{list-style: none;}
+a{text-decoration: none;}
+em{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+/*一些有用的样式类*/
+/*清除margin-top塌陷和浮动*/
+.clearfix:before,.clearfix:after{content:"";display: table;}
+.clearfix:after{clear:both;}
+/*ie缩放属性，但是可以解决ie浏览器清除浮动的兼容问题*/
+.clearfix{zoom:1;}
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+/*定位*/
+.position_absolute{position: absolute;}
+.position_relative{position: relative;}
+.position_fixed{position: fixed;}
